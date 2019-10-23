@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/hover"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="39dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/editText7"
+                android:layout_alignBottom="@+id/editText7"
+                android:layout_toLeftOf="@+id/editText9"
+                android:layout_toStartOf="@+id/editText9"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editText9"
+                android:layout_width="39dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/editText8"
+                android:layout_alignBottom="@+id/editText8"
+                android:layout_alignLeft="@+id/button2"
+                android:layout_alignStart="@+id/button2"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="39dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/editText9"
+                android:layout_alignBottom="@+id/editText9"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp"
+                android:layout_toEndOf="@+id/textView"
+                android:layout_toRightOf="@+id/textView"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editText11"
+                android:layout_width="39dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/editText10"
+                android:layout_alignBottom="@+id/editText10"
+                android:layout_toEndOf="@+id/editText10"
+                android:layout_toRightOf="@+id/editText10"
+                android:ems="10"
+                android:inputType="number" />
+
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="39dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="18dp"
+                android:layout_toLeftOf="@+id/editText7"
+                android:layout_toStartOf="@+id/editText7"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="39dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/editText6"
+                android:layout_alignBottom="@+id/editText6"
+                android:layout_toLeftOf="@+id/editText8"
+                android:layout_toStartOf="@+id/editText8"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView"
+                android:layout_marginLeft="62dp"
+                android:layout_marginStart="62dp"
+                android:layout_marginTop="18dp"
+                android:text="Please set up your 6 digit pin" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="23dp"
+                android:text="Step 3"
+                android:textColor="@color/darkpayit"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="1dp"
+                android:layout_height="37dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="27dp"
+                android:background="@drawable/butttton" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainmenu"
+    tools:context="com.allandroidprojects.payeat.utility.pin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="94dp"
+            android:fontFamily="@font/opensanssemibolditalic"
+            android:text="Silahkan Masukkan Pin Anda"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView12"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="42dp"
+            android:fontFamily="@font/opensansextrabold"
+            android:text="Konfirmasi Pin"
+            android:textColor="@color/darkpayit"
+            android:textSize="36sp" />
+
+        <EditText
+            android:id="@+id/txt_pin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="184dp"
+            android:ems="10"
+            android:inputType="numberPassword"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn_pin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button"
+            android:fontFamily="@font/opensansextrabold"
+            android:onClick="Validate"
+            android:padding="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="PAYEAT!"
+            android:textColor="@color/darkpayit"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

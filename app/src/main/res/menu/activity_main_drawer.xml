@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item1"
+            android:icon="@drawable/ic_local_offer_black_24dp"
+            android:title="Promosi" />
+        <item
+            android:id="@+id/nav_item4"
+            android:icon="@drawable/ic_local_dining_black_24dp"
+            android:title="Daftar Merchant" />
+    </group>
+
+    <item android:title="@string/my_profile">
+        <menu>
+            <item
+                android:id="@+id/my_cart"
+                android:icon="@drawable/ic_shopping_cart_black_24dp"
+                android:title="Riwayat Transaksi" />
+            <item
+                android:id="@+id/my_point"
+                android:icon="@drawable/ic_shopping_cart_black_24dp"
+                android:title="Riwayat Point" />
+            <item
+                android:id="@+id/my_account"
+                android:icon="@drawable/ic_book_black_24dp"
+                android:title="Top Up" />
+        </menu>
+    </item>
+
+    <item android:title="@string/help_support">
+        <menu>
+            <item
+                android:id="@+id/contact_us"
+                android:title="@string/contact_us" />
+            <item
+                android:id="@+id/terms_conditions"
+                android:title="@string/terms_conditions" />
+        </menu>
+    </item>
+
+</menu>
